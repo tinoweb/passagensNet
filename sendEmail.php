@@ -10,6 +10,7 @@ require 'PHPMailer/src/SMTP.php';
 $mail = new PHPMailer;
 
 $mail->IsSMTP();     
+$mail->SMTPDebug = 1;
 $mail->CharSet = 'UTF-8';                
 $mail->SMTPAuth   = true;    
 
@@ -39,7 +40,7 @@ $mail->addAddress("tino477@gmail.com");
 // $mail->addReplyTo("passagens.net@outlook.com.br", "Reply");
 $mail->isHTML(true);
 
-	$data        = $_POST;
+	  $data        = $_POST;
     
     $name        = $data['nome'];
     $email       = $data['email'];
