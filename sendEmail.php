@@ -14,9 +14,9 @@ $mail->SMTPDebug = 1;
 $mail->CharSet = 'UTF-8';                
 $mail->SMTPAuth   = true;    
 
+$mail->SMTPSecure = 'ssl';                  
 $mail->Host       = "smtp.gmail.com";       
-$mail->Port 	  = 587;  
-$mail->SMTPSecure = 'tls';                  
+$mail->Port     = 465;  
 $mail->Username   = "tino477@gmail.com";    
 $mail->Password   = "lopesgomes102";     
 $mail->From     = "tino477@gmail.com";
