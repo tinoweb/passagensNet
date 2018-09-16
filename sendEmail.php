@@ -24,7 +24,7 @@ $mail->SMTPAuth   = true;
 // $mail->addAddress("tino477@gmail.com");
 
 
-$mail->SMTPSecure = 'tsl';                  
+$mail->SMTPSecure = 'tls';                  
 $mail->Host       = "smtp.office365.com";       
 $mail->Port       = 587;  
 $mail->Username   = "passagens.net@outlook.com.br";    
