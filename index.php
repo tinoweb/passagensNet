@@ -149,7 +149,7 @@
 							</a>
 						</span>
 						
-						<p class="font25 text-white">Preencha o formulario para solicitar o valor das promoções das passagens nas datas desejadas. Entraremos em contato o mais rápido possivel para lhe passar todas a Informações</p>
+						<p class="font25 text-white">Preencha o formulario para solicitar o valor das promoções das passagens nas datas desejadas. Entraremos em contato o mais rápido possivel para lhe passar todas as Informações</p>
 					</div>
 				</div>
 				<div class="col-md-6">

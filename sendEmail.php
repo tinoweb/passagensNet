@@ -21,7 +21,7 @@ $mail->Username   = "tino477@gmail.com";
 $mail->Password   = "lopesgomes102";     
 $mail->From     = "tino477@gmail.com";
 $mail->FromName = "Passagens.net";
-$mail->addAddress("tino477@gmail.com");
+// $mail->addAddress("tino477@gmail.com");
 
 
 // $mail->SMTPSecure = 'tls';                  
