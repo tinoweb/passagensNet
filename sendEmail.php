@@ -25,7 +25,7 @@ $mail->SMTPAuth   = true;
 
 
 $mail->SMTPSecure = 'tsl';                  
-$mail->Host       = "smtp.live.com";       
+$mail->Host       = "smtp.office365.com";       
 $mail->Port       = 587;  
 $mail->Username   = "passagens.net@outlook.com.br";    
 $mail->Password   = "AYLAesther24";    
