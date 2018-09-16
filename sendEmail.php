@@ -14,23 +14,23 @@ $mail->SMTPDebug = 1;
 $mail->CharSet = 'UTF-8';                
 $mail->SMTPAuth   = true;    
 
-// $mail->SMTPSecure = 'ssl';                  
-// $mail->Host       = "smtp.gmail.com";       
-// $mail->Port     = 465;  
-// $mail->Username   = "tino477@gmail.com";    
-// $mail->Password   = "lopesgomes102";     
-// $mail->From     = "tino477@gmail.com";
-// $mail->FromName = "Passagens.net";
-// $mail->addAddress("tino477@gmail.com");
-
-
-$mail->SMTPSecure = 'tls';                  
-$mail->Host       = "smtp.office365.com";       
-$mail->Port       = 587;  
-$mail->Username   = "passagens.net@outlook.com.br";    
-$mail->Password   = "AYLAesther24";    
-$mail->From  = "passagens.net@outlook.com.br";
+$mail->SMTPSecure = 'ssl';                  
+$mail->Host       = "smtp.gmail.com";       
+$mail->Port     = 465;  
+$mail->Username   = "tino477@gmail.com";    
+$mail->Password   = "lopesgomes102";     
+$mail->From     = "tino477@gmail.com";
 $mail->FromName = "Passagens.net";
+$mail->addAddress("tino477@gmail.com");
+
+
+// $mail->SMTPSecure = 'tls';                  
+// $mail->Host       = "smtp.office365.com";       
+// $mail->Port       = 465;  
+// $mail->Username   = "passagens.net@outlook.com.br";    
+// $mail->Password   = "AYLAesther24";    
+// $mail->From  = "passagens.net@outlook.com.br";
+// $mail->FromName = "Passagens.net";
 
 // To address and name
 
