@@ -68,7 +68,7 @@
 								<li class="active"><a href="#" class="text-white">Home</a></li>
 								<li><a href="#colorlib-reservation" class="text-white">Simulação de Passagens</a></li>
 								
-								<li><a href="#" class="text-white">Contato</a></li>
+								<li><a href="#" id="menuContato" class="text-white">Contato</a></li>
 							</ul>
 						</div>
 					</div>
@@ -309,11 +309,79 @@
 		  </div>
 		</div>
 
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<a href="https://api.whatsapp.com/send?phone=5519994269826&text=Ol%C3%A1%20passagens.net%2C%20estou%20fazendo%20esse%20contato%20para%20saber%20mais%20detalhes%20sobre%20o%20seu%20servi%C3%A7o%2C%20teria%20como%20me%20atender%20nesse%20momento%3F%20Grato" class="float" target="_blank">
+		<i class="fa fa-whatsapp my-float"></i>
+		</a>
+
+		<!-- Modal -->
+		<div id="modalContato" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		        <h4 class="modal-title">Nosso Contato</h4>
+		      </div>
+		      <div class="modal-body">
+		        
+				    <div class="row">
+				       
+				        <div class="col-md-6">
+				            <address>
+				                <h4>Telefone Portugal</h4>
+				                <span class="contatowhats">
+				                	<i class="fa fa-phone"></i> +351924427929
+				           		</span>
+				            </address>
+				        </div>
+				        <div class="col-md-6">
+				            <address>
+				                <h4>Whatsapp</h4>
+				                <span class="contatowhats">
+					                <i class="fa fa-whatsapp"></i> +5519994269826
+				                </span>
+				            </address>
+				        </div>
+				    </div>
+				</div>
+		      
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+		      </div>
+		    </div>
+
+		  </div>
+		</div>
+
 		<style>
 			.pt{
 				list-style: none;
 			    padding: 12px;
 			    /*max-width: 240px;*/
+			}
+			.contatowhats{
+				font-size: 20px;
+			    font-weight: bold;
+			    color: green;
+			}
+			.float {
+			    position: fixed;
+			    width: 60px;
+			    height: 60px;
+			    bottom: 6em;
+			    right: 15px;
+			    background-color: #01E675;
+			    color: #FFF;
+			    border-radius: 50px;
+			    text-align: center;
+			    font-size: 30px;
+			    box-shadow: 0px 1px 6px #000;
+			    z-index: 100;
+			}
+			.my-float{
+				margin-top:16px;
 			}
 		</style>
 
@@ -351,7 +419,7 @@
 
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
-z	<!-- jQuery Easing -->
+	<!-- jQuery Easing -->
 	<script src="js/jquery.easing.1.3.js"></script>
 	<!-- Bootstrap -->
 	<script src="js/bootstrap.min.js"></script>

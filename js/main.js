@@ -305,10 +305,6 @@
 }());
 
 $(document).ready(function() {
-     // $('.findCountry').select2({
-     // 	 placeholder: 'Selecione um país',
-     // 	 theme: "bootstrap"
-     // });
 
      $('.select2-container--bootstrap').css('padding', '9px');
 
@@ -367,6 +363,12 @@ $(document).ready(function() {
         	}
 	    });
 
+     });
+
+     $("body").on('click', '#menuContato', function(event) {
+     	event.preventDefault();
+     	$("#modalContato").modal("show");
+     	/* Act on the event */
      });
 
      
