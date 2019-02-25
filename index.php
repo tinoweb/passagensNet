@@ -341,7 +341,7 @@
 				                <h4>Whatsapp</h4>
 				                <span class="contatowhats">
 					                <i class="fa fa-whatsapp"></i> +55 1999426-9826
-				                </span>
+				                </span> <br>
 				                <span class="contatowhats">
 					                <i class="fa fa-whatsapp"></i> +351 92442-7929
 				                </span>
