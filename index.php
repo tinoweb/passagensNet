@@ -340,7 +340,10 @@
 				            <address>
 				                <h4>Whatsapp</h4>
 				                <span class="contatowhats">
-					                <i class="fa fa-whatsapp"></i> +5519994269826
+					                <i class="fa fa-whatsapp"></i> +55 1999426-9826
+				                </span>
+				                <span class="contatowhats">
+					                <i class="fa fa-whatsapp"></i> +351 92442-7929
 				                </span>
 				            </address>
 				        </div>
@@ -395,7 +398,11 @@
 					</div>
 					<div class="col-md-6">
 						<ul style="margin-top: 26px;">
-							<li class="pt"><strong>Contato:</strong> + 55 (19) 99429-6826</li>
+							<li class="pt"><strong>Contato:</strong> <br>
+							<span> +55 (19) 99426-9826 </span> <br>
+							<span> +351 92442-7929 </span>
+							</li>
+
 							<li class="pt"><strong>CNPJ:</strong> 30.490.617/0001-01</li>
 							<li class="pt"><strong>Endereço:</strong> Avenida Floriano Peixoto 737 - centro - Artur Nogueira </li>
 							<li class="pt"><strong>SP CEP:</strong> 13160-000 </li>
