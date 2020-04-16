@@ -18,7 +18,7 @@ $mail->SMTPSecure = 'ssl';
 $mail->Host       = "smtp.gmail.com";       
 $mail->Port     = 465;  
 $mail->Username   = "tino477@gmail.com";    
-$mail->Password   = "lopesgomes102";     
+$mail->Password   = "lopesgomes1023";     
 $mail->From     = "tino477@gmail.com";
 $mail->FromName = "Passagens.net";
 
