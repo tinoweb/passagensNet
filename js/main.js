@@ -33,10 +33,7 @@
 
     			$('body').removeClass('offcanvas');
     			$('.js-colorlib-nav-toggle').removeClass('active');
-				
 	    	}
-	    
-	    	
 	    }
 		});
 
@@ -66,19 +63,14 @@
 				.find('ul')
 				.slideDown(500, 'easeOutExpo');				
 		}).mouseleave(function(){
-
 			var $this = $(this);
 			$this
 				.removeClass('active')
 				.find('ul')
 				.slideUp(500, 'easeOutExpo');				
 		});
-
-
 		$(window).resize(function(){
-
 			if ( $('body').hasClass('offcanvas') ) {
-
     			$('body').removeClass('offcanvas');
     			$('.js-colorlib-nav-toggle').removeClass('active');
 				
@@ -284,8 +276,6 @@
 		  'autoclose': true
 		});
 	};
-
-	
 	$(function(){
 		mobileMenuOutsideClick();
 		offcanvasMenu();
@@ -299,16 +289,11 @@
 		parallax();
 		datePicker();
 	});
-
-   
-
 }());
 
 $(document).ready(function() {
-
      $('.select2-container--bootstrap').css('padding', '9px');
-
-     $('#simulaPassageForm').submit(function(event) {
+	 $('#simulaPassageForm').submit(function(event) {
      	event.preventDefault();
      	
      	var nome 	 	= $('#nome').val();
@@ -345,8 +330,6 @@ $(document).ready(function() {
      			$('#myModal').modal('show');
 	            $('#btnEnviar').removeClass('hide');
 	            $('#loadingStatus').addClass('hide');
-
-	            console.log(response);
             	$('#nome').val("");
 		     	$('#email').val("");
 		     	$('#telefone').val("");
@@ -368,7 +351,6 @@ $(document).ready(function() {
      $("body").on('click', '#menuContato', function(event) {
      	event.preventDefault();
      	$("#modalContato").modal("show");
-     	/* Act on the event */
      });
 
      

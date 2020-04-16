@@ -22,12 +22,12 @@ $mail->Password   = "lopesgomes102";
 $mail->From     = "tino477@gmail.com";
 $mail->FromName = "Passagens.net";
 
-$mail->addAddress("passagens.net@outlook.com.br");
-$mail->addReplyTo("passagens.net@outlook.com.br", "Reply");
+$mail->addAddress("tino477@gmail.com");
+$mail->addReplyTo("tino477@gmail.com", "Reply");
 
 $mail->isHTML(true);
 
-	  $data        = $_POST;
+	$data        = $_POST;
     $name        = $data['nome'];
     $email       = $data['email'];
     $telefone    = $data['telefone'];
