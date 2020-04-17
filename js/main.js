@@ -308,7 +308,7 @@ $(document).ready(function() {
      	var dataChegada = $('#dataChegada').val();
 
 	    $.ajax({
-	     	url: 'sendEmail.php',
+	     	url: 'enviaEmail.php',
 	     	type: 'POST',
 	     	data: {
 	     		'nome': nome,
